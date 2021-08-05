@@ -1,4 +1,4 @@
 # cryptocurrencySVI
 cryptocurrencySearchVolumeIndex
 
-finished product, recommand running in Google colab 
+Finished product, recommand running in Google colab 

@@ -19,10 +19,10 @@ trend_obj.build_payload(kw_list=[keyword], timeframe=period)
 trend_df = trend_obj.interest_over_time()
 print(trend_df.head())
 
-# def d1(S0, K, r, sigma, T, q):
+# def df_1(S0, K, r, sigma, T, q):
 #        return (np.log(S0 / K) + (r - q + sigma ** 2 / 2) * T) / (sigma * np.sqrt(T))
 
-# def d2(S0, K, r, sigma, T, q):
+# def df_2(S0, K, r, sigma, T, q):
 #        return (np.log(S0 / K) + (r - q - sigma ** 2 / 2) * T) / (sigma * np.sqrt(T))
 
 plt.style.use('ggplot')
